@@ -1,0 +1,246 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* Exercice
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20171003\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-03 21:37+0000\n"
+"PO-Revision-Date: 2018-08-03 21:37+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_mail
+msgid "Adresse email"
+msgstr "Adresse email"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_amount
+msgid "Amount"
+msgstr "Amount"
+
+#. module: Exercice
+#: model:ir.actions.act_window,name:Exercice.organizer_list_action
+msgid "Child Menu"
+msgstr "Child Menu"
+
+#. module: Exercice
+#: model:ir.actions.act_window,help:Exercice.organizer_list_action
+msgid "Click here to create new item !"
+msgstr "Click here to create new item !"
+
+#. module: Exercice
+#: model:ir.model,name:Exercice.model_res_partner
+msgid "Contact"
+msgstr "Contact"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_display_name
+msgid "Display Name"
+msgstr "Display Name"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "Ex lastName:ajaa"
+msgstr "Ex lastName:ajaa"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "Ex name : KHE"
+msgstr "Ex name : KHE"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_sale_order_Exercice
+#: model:ir.ui.view,arch_db:Exercice.view_order_form2_inherited
+msgid "Exercice"
+msgstr "Exercise"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_search_view
+msgid "Group by .."
+msgstr "Group by .."
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_id
+msgid "ID"
+msgstr "ID"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur___last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: Exercice
+#: selection:organisateur,status:0
+msgid "Madame"
+msgstr "Madame"
+
+#. module: Exercice
+#: selection:organisateur,status:0
+msgid "Mr"
+msgstr "Mr"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+#: model:ir.ui.view,arch_db:Exercice.organisateur_search_view
+msgid "Nom"
+msgstr "Nom"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_tel
+msgid "Numéro de téléphone"
+msgstr "Numéro de téléphone"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_res_partner_organizer_id
+#: model:ir.model.fields,field_description:Exercice.field_res_users_organizer_id
+msgid "Organizer"
+msgstr "Organizer"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_quantity
+msgid "Quantity"
+msgstr "Quantity"
+
+#. module: Exercice
+#: model:ir.model,name:Exercice.model_sale_order
+msgid "Quotation"
+msgstr "Quotation"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_rate
+msgid "Rate (%)"
+msgstr "Rate (%)"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_status
+msgid "Status"
+msgstr "Status"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_tax
+msgid "Tax"
+msgstr "Tax"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_test
+msgid "Test"
+msgstr "Test"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_totale
+msgid "Total"
+msgstr "Total"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_value
+msgid "Value"
+msgstr "Value"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "ammounted"
+msgstr "ammounted"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "email"
+msgstr "email"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_nom
+msgid "nom"
+msgstr "nom"
+
+#. module: Exercice
+#: model:ir.model,name:Exercice.model_organisateur
+#: model:ir.ui.menu,name:Exercice.organisateur_menu
+#: model:ir.ui.menu,name:Exercice.organizer_top_menu
+msgid "organisateur"
+msgstr "organisateur"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_tree_view
+msgid "organisateur Information"
+msgstr "organisateur Information"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_search_view
+msgid "organisateur search"
+msgstr "organisateur search"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+#: model:ir.ui.view,arch_db:Exercice.organisateur_search_view
+msgid "prenom"
+msgstr "prenom"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_prenom
+msgid "prénom"
+msgstr "prénom"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "rate"
+msgstr "rate"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "tax"
+msgstr "tax"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+#: model:ir.ui.view,arch_db:Exercice.view_order_form2_inherited
+msgid "test"
+msgstr "test"
+
+#. module: Exercice
+#: model:ir.model.fields,field_description:Exercice.field_organisateur_total
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+#: model:ir.ui.view,arch_db:Exercice.organisateur_search_view
+msgid "total"
+msgstr "total"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "téléphone"
+msgstr "téléphone"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "value"
+msgstr "value"
+
+#. module: Exercice
+#: model:ir.ui.view,arch_db:Exercice.organisateur_form_view
+msgid "votre status"
+msgstr "votre status"
+

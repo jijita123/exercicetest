@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+ 
+    <template id="report_saleorder_document_inherits_id" inherit_id="sale.report_saleorder_document">
+    <xpath expr="//div[@class='page']" position="inside">
+     <div class="row">
+            <div class="col-xs-12" style="text-align:right !important;">
+            <h2 style="font-size:20px;" t-if="doc.Exercice"> <span t-field="doc.Exercice"></span>
+            </h2>         
+            </div>                                                
+    </div>
+        </xpath>
+</template>
+
+</odoo>

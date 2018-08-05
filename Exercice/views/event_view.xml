@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+<record id="view_order_form2_inherited" model="ir.ui.view">
+    <field name="name">events.view_order_form2</field>
+    <field name="model">event.event</field>
+    <field name="inherit_id" ref="event.view_event_form"/>
+    <field name="arch" type="xml">
+        <!-- find field description and add the field
+             idea_ids after it -->
+        <xpath expr="//field[@name='address_id']" position="after">
+          <field name="theme" string="théme de l'evenement"/>
+        </xpath>
+           <xpath expr="//field[@name='organizer_id']" position="attributes">
+<attribute name='invisible'>1</attribute>
+        </xpath>
+         <xpath expr="//notebook/page[1]" position="after">
+          <page string="materiel">
+              
+          <field name="materiel_id" string="materiel"/>
+              
+          </page>
+           
+            </xpath>
+    </field>
+</record>    
+</odoo>

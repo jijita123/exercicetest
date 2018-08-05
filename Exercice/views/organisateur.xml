@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!-- Tree View of organisateur-->
+    <record  model="ir.ui.view" id="organisateur_tree_view">     
+        <field name="name">organisateur.tree</field>
+        <field name="model">organisateur</field>
+        <field name="arch" type="xml">
+            <tree string="organisateur Information">
+                <field name="nom"/>
+                <field name="prenom"/>
+                <field name="tel"/>
+                <field name="mail"/>
+                <field name="status"/>
+                <field name="test"/>
+                <field name="total"/>
+                <field name="totale"/> 
+            </tree>
+        </field>
+    </record>
+
+    <!-- Group-->
+    <record  model="ir.ui.view" id="organisateur_search_view">
+        <field name="name">organisateur.search</field>
+         <field name="model">organisateur</field>
+        <field name="arch" type="xml">
+            <search string="organisateur search">
+                <group expand="1" string="Group by ..">
+                    <filter name="nom" string="Nom" domain="[]" context="{'group_by':'nom'}"/>
+                </group>
+
+                <!-- Date searching-->
+                <field name="nom" string="Nom" filter_domain="[('nom','ilike',self)]"/>
+                <field name="prenom" string="prenom" filter_domain="[('prenom','ilike',self)]"/>
+                <field name="totale" string="total" filter_domain="[('totale','ilike',self)]"/>
+
+            </search>
+        </field>
+
+    </record>
+    <!-- Form View Of organisateur  -->
+    <record model="ir.ui.view" id="organisateur_form_view" >
+        <field name="name">organisateur.form</field>
+        <field name="model">organisateur</field>
+        <field name="arch" type="xml">
+            <form>
+            <sheet>
+             <group>
+                <field name="nom" string="Nom" placeholder="Ex name : KHE"/>
+                <field name="prenom" string="prenom"  placeholder="Ex lastName:ajaa"/>
+                <field name="mail" string="email" />
+                <field name="tel"  string="téléphone"/>   
+                <field name="status"  string="votre status"/>  
+                <field name="test" string="test"/> 
+                <field name="value"  string="value"/>
+                <field name="tax" string="tax"/>
+                <field name="total" string="total"/> 
+                <field name="rate" string="rate"/>  
+                <field name="amount" string="ammounted "/>  
+                <field name="quantity" string="quantity"/>                                                    
+             </group>
+             </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--   Define custom action -->
+
+    <record model="ir.actions.act_window" id="organizer_list_action" >
+        <field name="name">Child Menu</field>
+        <field name="res_model">organisateur</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click here to create new item !
+            </p>
+        </field>
+    </record>
+    <!--   Create Top Menu  -->
+    <menuitem name="organisateur" id="organizer_top_menu" sequence="6"/>
+        <menuitem name="organisateur" id="organisateur_menu" parent="organizer_top_menu" action="organizer_list_action" sequence="6"/>
+
+</odoo>
